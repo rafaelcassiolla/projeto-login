@@ -58,3 +58,86 @@
    div#formulario > p {
       font-size: 0.8em;
    }
+
+   form > div.campo {
+      background-color: #5f2c82;
+      border: 2px solid #5f2c82;
+      display: block;
+      width: 100%;
+      height: 40px;
+      border-radius: 8px;
+      margin: 5px 0px;
+   }
+
+   div.campo > label {
+      display: none;
+   }
+
+   div.campo > span {
+      color: white;
+      font-size: 2em;
+      width: 40px;
+      padding: 5px;
+   }
+
+   div.campo > input {
+      background-color: #80eeeabd;
+      font-size: 1em;
+      width: calc(100% - 44.5px);
+      height: 100%;
+      transform: translateY(-13px);
+      border: 0px;
+      border-radius: 8px;
+      padding: 4px;
+   }
+
+   div.campo > input:focus-within {
+      background-color: white;
+   }
+
+   form > .entrar {
+      display: block;
+      font-size: 1em;
+      width: 100%;
+      height: 40px;
+      background-color: #49a09d;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+   }
+
+   form > .entrar:hover {
+      background-color: #397a78;
+   }
+
+   form > .botao {
+      text-align: center;
+      display: block;
+      font-size: 1em;
+      width: 100%;
+      height: 40px;
+      background-color: white;
+      color: #49a09d;
+      border: 2px solid #49a09d;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 5px;
+   }
+
+   form > .botao:hover {
+      background-color: #3c858263;
+   }
+
+   a.botao > p {
+      display: inline-block;
+      transform: translateY(-10px);
+   }
+
+   a.botao > span {
+      font-size: 2em;
+      width: 40px;
+      padding: 2px;
+   }
